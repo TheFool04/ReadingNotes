@@ -119,7 +119,7 @@ void InputHandler::handleInput()
 
 原来每个输入直接调用一个函数，现在多了一层间接：
 
-![手柄示意图：每个按键映射到对应的 button_ 变量，变量再映射到具体函数。](../html/images/command-buttons-two.png)
+![手柄示意图：每个按键映射到对应的 button_ 变量，变量再映射到具体函数。](./images/command-buttons-two.png)
 
 这就是命令模式的精髓。如果你已经看到它的价值，接下来的内容都是额外的收获。
 
